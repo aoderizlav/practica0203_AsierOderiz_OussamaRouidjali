@@ -1,0 +1,7 @@
+fecha = input("Introduzca su fecha de su nacimiento en formato dd/mm/aaaa:\n")
+print("El dia es: ")
+print(fecha.split("/")[0])
+print("El mes es: ")
+print(fecha.split("/")[1])
+print("El año es: ")
+print(fecha.split("/")[2])
